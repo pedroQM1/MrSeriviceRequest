@@ -17,6 +17,7 @@ on:
 jobs:
 
   teste:
+    if: github.event.pull_request.merged == 'true'
     # The type of runner that the job will run on
     runs-on: windows-latest
 
