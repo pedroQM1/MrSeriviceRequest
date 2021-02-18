@@ -29,9 +29,9 @@ jobs:
       - name: Run a one-line script
         
         run: |
-            'cd "C:/Program Files (x86)/IIS/Microsoft Web Deploy V3"'
-            '.\msdeploy.exe -help -verb'
-            'echo "$HOME/.local/bin"'
+            cd "C:/Program Files (x86)/IIS/Microsoft Web Deploy V3"
+            .\msdeploy.exe -help -verb
+            echo "$HOME/.local/bin"
   # This workflow contains a single job called "build"
  
 
