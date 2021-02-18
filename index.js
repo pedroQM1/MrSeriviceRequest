@@ -1,1 +1,1 @@
-eqwewqewq
+const nome  = "pedro"
