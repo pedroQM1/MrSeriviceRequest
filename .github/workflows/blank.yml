@@ -48,7 +48,7 @@ jobs:
     
     environment:
       name: development
-      url: www.mrservice.com
+      url: 'www.mrservice.com'
     needs: build
 
     # Steps represent a sequence of tasks that will be executed as part of the job
